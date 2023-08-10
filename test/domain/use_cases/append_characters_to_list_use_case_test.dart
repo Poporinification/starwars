@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:starwars/domain/entities/character.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 import 'package:starwars/domain/use_cases/append_characters_to_list_use_case.dart';
 
 import '../../helpers/dummy_data.dart';

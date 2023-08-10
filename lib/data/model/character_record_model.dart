@@ -1,6 +1,6 @@
 import 'package:starwars/data/model/character_model.dart';
 import 'package:starwars/domain/entities/character.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 
 /// Modelo de datos para el registro de personaje
 class RecordSetModel {

@@ -1,4 +1,4 @@
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 import 'package:starwars/domain/repositories/character_repository.dart';
 
 /// Caso de uso para obtener los personajes

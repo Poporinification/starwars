@@ -4,7 +4,7 @@ import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:mockito/mockito.dart';
 import 'package:starwars/data/model/character_model.dart';
 import 'package:starwars/domain/entities/character.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 import 'package:starwars/presentation/screens/list/cubit/character_list_cubit.dart';
 
 import '../../../../helpers/dummy_data.dart';

@@ -17,8 +17,8 @@ import 'package:starwars/data/respositories/http_repository_impl.dart' as _i22;
 import 'package:starwars/data/respositories/storage_repository_impl.dart'
     as _i23;
 import 'package:starwars/domain/entities/character.dart' as _i12;
-import 'package:starwars/domain/entities/character_record.dart' as _i3;
 import 'package:starwars/domain/entities/connetivity.dart' as _i5;
+import 'package:starwars/domain/entities/recordset.dart' as _i3;
 import 'package:starwars/domain/observable/connection_observable.dart' as _i20;
 import 'package:starwars/domain/repositories/character_repository.dart' as _i2;
 import 'package:starwars/domain/repositories/connectivity_repository.dart'

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 import 'package:starwars/domain/use_cases/get_characters_use_case.dart';
 
 import '../../helpers/dummy_data.dart';

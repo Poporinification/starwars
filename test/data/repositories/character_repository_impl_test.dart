@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:starwars/data/const/endpoints_const.dart';
 import 'package:starwars/data/respositories/character_repository_impl.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 
 import '../../helpers/dummy_data.dart';
 import '../../helpers/mock_runner_test.mocks.dart';

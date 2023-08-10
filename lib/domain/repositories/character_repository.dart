@@ -1,5 +1,5 @@
 import 'package:starwars/domain/entities/character.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 
 /// Interfaz que define los métodos que debe implementar un repositorio de personajes
 /// para que pueda ser usado por los casos de uso

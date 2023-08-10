@@ -1,6 +1,6 @@
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:starwars/domain/entities/character.dart';
-import 'package:starwars/domain/entities/character_record.dart';
+import 'package:starwars/domain/entities/recordset.dart';
 
 /// Caso de uso para agregar personajes a la lista
 class AppendCharactersToListUseCase {
