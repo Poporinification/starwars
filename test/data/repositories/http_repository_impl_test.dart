@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:starwars/data/respositories/http_repository_impl.dart';
@@ -71,14 +73,14 @@ void main() {
     });
 
     group('.get() method', () {
-      test('should get the data from the given path', () async {
+      test('Debe obtener los datos de la ruta dada', () async {
         final response = await httpRepository.get('https://httpbin.org/get');
 
         expect(response, isA<Response>());
-        expect(response.data, isA<Map<String, dynamic>>());
+        expect(jsonDecode(response.data), isA<Map<String, dynamic>>());
       });
 
-      test('should throw an exception if the request fails', () async {
+      test('Debe lanzar una excepción si la solicitud falla', () async {
         expect(
           () async =>
               await httpRepository.get('https://httpbin.org/status/401'),
