@@ -1,8 +1,8 @@
 import 'package:starwars/domain/entities/character.dart';
 
-/// Modelo de datos para el registro de personaje
+/// Entidad que representa un recordset de personajes
 class Recordset {
-  /// Constructor del modelo de datos
+  /// Constructor de la entidad
   Recordset({
     required this.count,
     required this.next,
