@@ -31,7 +31,7 @@ Future<void> main() async {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Hadoken',
+        title: 'Challenge Star Wars',
         theme: lightTheme,
         home: const CharacterListScreen(),
       ),
